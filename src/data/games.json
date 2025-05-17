@@ -1,0 +1,184 @@
+{
+  "games": [
+    {
+      "id": 1,
+      "title": "The Legend of Zelda: Breath of the Wild",
+      "genre": "Action-Adventure",
+      "year": 2017,
+      "rating": 9.5,
+      "image": "https://raw.githubusercontent.com/devicons/devicon/master/icons/games/zelda-botw.svg",
+      "description": "Una aventura épica en un vasto mundo abierto"
+    },
+    {
+      "id": 2,
+      "title": "Red Dead Redemption 2",
+      "genre": "Action-Adventure",
+      "year": 2018,
+      "rating": 9.7,
+      "image": "https://raw.githubusercontent.com/devicons/devicon/master/icons/games/rdr2.svg",
+      "description": "Una historia del viejo oeste llena de acción y drama"
+    },
+    {
+      "id": 3,
+      "title": "The Witcher 3: Wild Hunt",
+      "genre": "RPG",
+      "year": 2015,
+      "rating": 9.3,
+      "image": "https://raw.githubusercontent.com/devicons/devicon/master/icons/games/witcher3.svg",
+      "description": "Una aventura de fantasía con decisiones morales complejas"
+    },
+    {
+      "id": 4,
+      "title": "God of War",
+      "genre": "Action-Adventure",
+      "year": 2018,
+      "rating": 9.4,
+      "image": "https://raw.githubusercontent.com/devicons/devicon/master/icons/games/gow.svg",
+      "description": "La épica historia de un padre y su hijo en la mitología nórdica"
+    },
+    {
+      "id": 5,
+      "title": "Cyberpunk 2077",
+      "genre": "RPG",
+      "year": 2020,
+      "rating": 7.8,
+      "image": "https://raw.githubusercontent.com/devicons/devicon/master/icons/games/cyberpunk.svg",
+      "description": "Una aventura futurista en Night City"
+    },
+    {
+      "id": 6,
+      "title": "Elden Ring",
+      "genre": "Action RPG",
+      "year": 2022,
+      "rating": 9.6,
+      "image": "https://raw.githubusercontent.com/devicons/devicon/master/icons/games/elden-ring.svg",
+      "description": "Un mundo oscuro y desafiante creado por FromSoftware"
+    },
+    {
+      "id": 7,
+      "title": "Super Mario Odyssey",
+      "genre": "Platform",
+      "year": 2017,
+      "rating": 9.7,
+      "image": "https://raw.githubusercontent.com/devicons/devicon/master/icons/games/mario-odyssey.svg",
+      "description": "Una aventura colorida y creativa con Mario"
+    },
+    {
+      "id": 8,
+      "title": "Horizon Zero Dawn",
+      "genre": "Action RPG",
+      "year": 2017,
+      "rating": 9.0,
+      "image": "https://raw.githubusercontent.com/devicons/devicon/master/icons/games/horizon.svg",
+      "description": "Un mundo post-apocalíptico con máquinas robóticas"
+    },
+    {
+      "id": 9,
+      "title": "Final Fantasy VII Remake",
+      "genre": "RPG",
+      "year": 2020,
+      "rating": 9.2,
+      "image": "https://raw.githubusercontent.com/devicons/devicon/master/icons/games/ff7r.svg",
+      "description": "El clásico JRPG reimaginado para una nueva generación"
+    },
+    {
+      "id": 10,
+      "title": "Death Stranding",
+      "genre": "Action",
+      "year": 2019,
+      "rating": 8.5,
+      "image": "https://raw.githubusercontent.com/devicons/devicon/master/icons/games/death-stranding.svg",
+      "description": "Una experiencia única de conexión y entrega"
+    },
+    {
+      "id": 11,
+      "title": "Persona 5 Royal",
+      "genre": "JRPG",
+      "year": 2020,
+      "rating": 9.5,
+      "image": "https://raw.githubusercontent.com/devicons/devicon/master/icons/games/persona5.svg",
+      "description": "Una aventura estilizada en el Tokio moderno"
+    },
+    {
+      "id": 12,
+      "title": "Hades",
+      "genre": "Action Roguelike",
+      "year": 2020,
+      "rating": 9.3,
+      "image": "https://raw.githubusercontent.com/devicons/devicon/master/icons/games/hades.svg",
+      "description": "Un roguelike con mitología griega y narrativa única"
+    },
+    {
+      "id": 13,
+      "title": "Ghost of Tsushima",
+      "genre": "Action-Adventure",
+      "year": 2020,
+      "rating": 9.1,
+      "image": "https://raw.githubusercontent.com/devicons/devicon/master/icons/games/ghost.svg",
+      "description": "Una aventura samurái en el Japón feudal"
+    },
+    {
+      "id": 14,
+      "title": "Disco Elysium",
+      "genre": "RPG",
+      "year": 2019,
+      "rating": 9.2,
+      "image": "https://raw.githubusercontent.com/devicons/devicon/master/icons/games/disco-elysium.svg",
+      "description": "Un RPG narrativo con profundidad psicológica"
+    },
+    {
+      "id": 15,
+      "title": "Sekiro: Shadows Die Twice",
+      "genre": "Action-Adventure",
+      "year": 2019,
+      "rating": 9.4,
+      "image": "https://raw.githubusercontent.com/devicons/devicon/master/icons/games/sekiro.svg",
+      "description": "Una desafiante aventura ninja en el Japón feudal"
+    },
+    {
+      "id": 16,
+      "title": "Animal Crossing: New Horizons",
+      "genre": "Life Simulation",
+      "year": 2020,
+      "rating": 9.0,
+      "image": "https://raw.githubusercontent.com/devicons/devicon/master/icons/games/animal-crossing.svg",
+      "description": "Una relajante experiencia de vida en una isla"
+    },
+    {
+      "id": 17,
+      "title": "Resident Evil Village",
+      "genre": "Horror",
+      "year": 2021,
+      "rating": 8.8,
+      "image": "https://raw.githubusercontent.com/devicons/devicon/master/icons/games/re-village.svg",
+      "description": "Terror gótico en un pueblo misterioso"
+    },
+    {
+      "id": 18,
+      "title": "It Takes Two",
+      "genre": "Adventure",
+      "year": 2021,
+      "rating": 9.3,
+      "image": "https://raw.githubusercontent.com/devicons/devicon/master/icons/games/it-takes-two.svg",
+      "description": "Una aventura cooperativa única y creativa"
+    },
+    {
+      "id": 19,
+      "title": "Deathloop",
+      "genre": "Action",
+      "year": 2021,
+      "rating": 8.9,
+      "image": "https://raw.githubusercontent.com/devicons/devicon/master/icons/games/deathloop.svg",
+      "description": "Un bucle temporal de acción y misterio"
+    },
+    {
+      "id": 20,
+      "title": "Metroid Dread",
+      "genre": "Metroidvania",
+      "year": 2021,
+      "rating": 9.0,
+      "image": "https://raw.githubusercontent.com/devicons/devicon/master/icons/games/metroid-dread.svg",
+      "description": "La última aventura de Samus Aran"
+    }
+  ]
+}
