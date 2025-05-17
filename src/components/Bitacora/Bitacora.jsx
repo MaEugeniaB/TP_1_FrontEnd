@@ -95,18 +95,23 @@ const Bitacora = () => {
       </section>
 
       <section className="organization-section">
-        <h2>Organización del Trabajo</h2>
+        <h2>🚀 Organización del Trabajo</h2>
         <p>
-          Nuestro equipo adoptó un enfoque ágil para el desarrollo del proyecto,
-          realizando reuniones diarias para mantener una comunicación efectiva y
-          asegurar el progreso continuo. Las reuniones diarias nos permitieron:
+          Para garantizar un desarrollo fluido y eficiente, adoptamos una
+          metodología <strong>ágil</strong>, basada en la comunicación constante
+          y la adaptabilidad. Las <strong>reuniones diarias</strong> fueron
+          clave para mantener al equipo sincronizado y enfocado.
         </p>
-        <ul>
-          <li>Identificar y resolver obstáculos rápidamente</li>
-          <li>Mantener al equipo alineado con los objetivos</li>
-          <li>Fomentar la colaboración y el apoyo mutuo</li>
-          <li>Ajustar prioridades según las necesidades del proyecto</li>
-        </ul>
+
+        <div className="organization-benefits">
+          <h3>¿Qué logramos con esta dinámica?</h3>
+          <ul>
+            <li>🛠️ Identificar y resolver obstáculos rápidamente</li>
+            <li>🎯 Mantener al equipo alineado con los objetivos</li>
+            <li>🤝 Fomentar la colaboración y el apoyo mutuo</li>
+            <li>🔄 Ajustar prioridades según las necesidades del proyecto</li>
+          </ul>
+        </div>
       </section>
     </div>
   );

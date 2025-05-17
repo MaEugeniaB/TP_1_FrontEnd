@@ -16,11 +16,19 @@ const Games = () => {
   if (selectedGame) {
     return (
       <div className="games-container">
-        <button className="back-button" onClick={handleBack}>
+        <button className="back-button-games" onClick={handleBack}>
           ← Volver
         </button>
         <div className="game-detail">
           <h2>{selectedGame.title}</h2>
+
+          {selectedGame.image && (
+            <img
+              src={selectedGame.image}
+              alt={`Portada de ${selectedGame.title}`}
+              className="game-image"
+            />
+          )}
           <div className="game-info">
             <div className="game-metadata">
               <p>
@@ -52,12 +60,16 @@ const Games = () => {
           >
             <div className="game-card-content">
               <h3>{game.title}</h3>
-              <div className="game-card-info">
-                <span className="game-genre">{game.genre}</span>
-                <span className="game-year">{game.year}</span>
-              </div>
+              {game.image && (
+                <img
+                  src={game.image}
+                  alt={`Portada de ${game.title}`}
+                  className="game-card-image"
+                />
+              )}
+
               <div className="game-rating">
-                <span>{game.rating}/10</span>
+                <strong>{game.rating} / 10</strong>
               </div>
             </div>
           </div>
