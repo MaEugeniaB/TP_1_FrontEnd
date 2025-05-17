@@ -3,7 +3,9 @@ import "./App.css";
 import Bitacora from "./components/Bitacora/Bitacora";
 import Games from "./components/Games/Games";
 import Movies from "./components/Movies/Movies";
+import Presentation from "./components/Presentation/Presentation";
 import Sidebar from "./components/Sidebar/Sidebar";
+import Team from "./components/Team/Team";
 
 function App() {
   return (
@@ -15,6 +17,8 @@ function App() {
             <Route path="/api" element={<Movies />} />
             <Route path="/data" element={<Games />} />
             <Route path="/bitacora" element={<Bitacora />} />
+            <Route path="/" element={<Presentation />} />
+            <Route path="/team" element={<Team />} />
           </Routes>
         </main>
       </div>
