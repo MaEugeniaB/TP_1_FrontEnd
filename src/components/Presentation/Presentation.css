@@ -16,6 +16,15 @@
   margin: 0 auto;
 }
 
+.team-card {
+  cursor:auto;
+}
+
+.team-card:hover {
+  transform: none;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
 @media (max-width: 768px) {
   .presentation {
     padding: 1rem;
