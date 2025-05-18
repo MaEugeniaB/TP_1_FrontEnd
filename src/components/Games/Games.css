@@ -47,6 +47,14 @@
   align-items: center;
 }
 
+.game-card-image {
+  width: 100%;
+  height: auto;
+  margin: 0.5rem 0;
+  border-radius: 4px;
+  object-fit: cover;
+}
+
 .game-genre {
   background-color: #2a2a2a;
   color: rgba(255, 255, 255, 0.87);
@@ -63,10 +71,10 @@
 .game-rating {
   display: flex;
   align-items: center;
-  justify-content: flex-end;
+  justify-content: center;
 }
 
-.game-rating span {
+.game-rating strong {
   background-color: #646cff;
   color: white;
   padding: 0.4rem 0.8rem;
@@ -74,8 +82,9 @@
   font-size: 0.9rem;
 }
 
-.back-button {
+.back-button-games {
   margin-bottom: 2rem;
+  padding: 0.6rem;
   display: flex;
   align-items: center;
   gap: 0.5rem;
@@ -85,7 +94,7 @@
   font-weight: bold;
 }
 
-.back-button:hover {
+.back-button-games:hover {
   background-color: #646cff;
   color: white;
 }
@@ -120,6 +129,13 @@
   color: rgba(255, 255, 255, 0.87);
   line-height: 1.6;
   margin: 0;
+}
+
+.game-image {
+  max-width: 100%;
+  height: auto;
+  margin: 0.6rem 0;
+  border-radius: 8px;
 }
 
 @media (max-width: 768px) {
