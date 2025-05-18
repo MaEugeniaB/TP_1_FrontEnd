@@ -31,7 +31,15 @@
   }
 
   .team-grid {
+    display: block;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 1rem;
   }
+
+  .team-card {
+  cursor:auto;
+  margin:5%;
 }
+}
+
+
