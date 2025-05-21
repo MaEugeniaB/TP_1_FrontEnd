@@ -22,7 +22,7 @@ const Bitacora = () => {
     {
       name: "Eugenia Bava",
       role: "Project Manager",
-      responsibilities: "Coordinación del equipo, seguimiento de tareas",
+      responsibilities: "Coordinación del equipo, seguimiento de tareas, diseño de presentación",
     },
   ];
 
