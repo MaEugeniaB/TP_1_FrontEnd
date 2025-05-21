@@ -1,4 +1,6 @@
 .games-container {
+  display: flex;
+  flex-direction: column;
   padding: 2rem;
   width: 100%;
   max-width: 1200px;
@@ -85,9 +87,9 @@
 }
 
 .back-button-games {
+  align-self: self-end;
+  padding: 10px 30px;
   margin-bottom: 2rem;
-  padding: 0.6rem;
-  display: flex;
   align-items: center;
   gap: 0.5rem;
   background-color: transparent;
