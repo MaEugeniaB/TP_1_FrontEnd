@@ -32,14 +32,19 @@
 
   .team-grid {
     display: block;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 1rem;
+    max-width: 100%;
+    margin: 0;
   }
 
   .team-card {
-  cursor:auto;
-  margin:5%;
-}
+    cursor: auto;
+    margin: 5% 0;
+    width: 90%;
+    max-width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
 

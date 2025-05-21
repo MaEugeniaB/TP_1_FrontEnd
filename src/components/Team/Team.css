@@ -1,7 +1,8 @@
-.team-container {
+.team-container {  
+  display: flex;
+  flex-direction: column;
   padding: 2rem;
-  max-width: 1200px;
-  margin: 0 auto;
+  max-width: 1400px;
 }
 
 .team-container h1 {
@@ -11,13 +12,15 @@
 }
 
 .team-profiles {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 2rem;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+gap: 1rem;
 }
 
 .team-profile-card {
   background-color: #1a1a1a;
+  width: 250px;
   border-radius: 12px;
   padding: 2rem;
   text-align: center;
@@ -67,8 +70,9 @@
 }
 
 .back-button {
+  align-self: self-end;
+  padding: 10px 30px;
   margin-bottom: 2rem;
-  display: flex;
   align-items: center;
   gap: 0.5rem;
   background-color: transparent;
