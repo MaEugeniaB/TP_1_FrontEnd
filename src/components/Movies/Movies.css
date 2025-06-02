@@ -4,6 +4,10 @@
   max-width: 1200px;
 }
 
+.movies-container h1 {
+  text-align: center;
+}
+
 .movies-grid {
   display: flex;
   justify-content: center;

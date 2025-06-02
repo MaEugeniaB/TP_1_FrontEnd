@@ -84,6 +84,24 @@ const Movies = () => {
   return (
     <div className='movies-container'>
       <h1>Películas Populares</h1>
+      <div className='pagination'>
+        <button
+          onClick={() => {
+            setPage((p) => Math.max(1, p - 1));
+            window.scrollTo(0, 0);
+          }}
+          disabled={page === 1}>
+          Anterior
+        </button>
+        <span>Página {page}</span>
+        <button
+          onClick={() => {
+            setPage((p) => p + 1);
+            window.scrollTo(0, 0);
+          }}>
+          Siguiente
+        </button>
+      </div>
       <div className='movies-grid'>
         {movies.map((movie) => (
           <div
@@ -111,12 +129,21 @@ const Movies = () => {
       </div>
       <div className='pagination'>
         <button
-          onClick={() => setPage((p) => Math.max(1, p - 1))}
+          onClick={() => {
+            setPage((p) => Math.max(1, p - 1));
+            window.scrollTo(0, 0);
+          }}
           disabled={page === 1}>
           Anterior
         </button>
         <span>Página {page}</span>
-        <button onClick={() => setPage((p) => p + 1)}>Siguiente</button>
+        <button
+          onClick={() => {
+            setPage((p) => p + 1);
+            window.scrollTo(0, 0);
+          }}>
+          Siguiente
+        </button>
       </div>
     </div>
   );

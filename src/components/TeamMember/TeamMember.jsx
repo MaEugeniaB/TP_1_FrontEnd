@@ -1,6 +1,13 @@
+import ImageGallery from '../ImageGallery/ImageGallery';
 import './TeamMember.css';
 
 const TeamMember = ({ member }) => {
+  // Get project images for the gallery
+  const projectImages = member.projects.map((project) => ({
+    url: `https://picsum.photos/seed/${project.name}/800/600`, // Using placeholder images
+    title: project.name,
+  }));
+
   return (
     <div className='team-member'>
       <div className='profile-header'>
@@ -21,14 +28,7 @@ const TeamMember = ({ member }) => {
 
       <div className='profile-section'>
         <h3>Proyectos</h3>
-        <div className='projects-grid'>
-          {member.projects.map((project) => (
-            <div key={project.name} className='project-card'>
-              <h4>{project.name}</h4>
-              <p>{project.description}</p>
-            </div>
-          ))}
-        </div>
+        <ImageGallery images={projectImages.map((img) => img.url)} />
       </div>
 
       <div className='profile-section'>
