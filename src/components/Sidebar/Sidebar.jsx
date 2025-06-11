@@ -3,6 +3,7 @@ import { useState } from 'react';
 import './Sidebar.css';
 import Logo from '../../assets/BreakingCode.png';
 // comentario
+// comentario
 const Sidebar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
